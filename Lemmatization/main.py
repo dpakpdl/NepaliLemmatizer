@@ -1,12 +1,11 @@
 # encoding: utf8
 
-import csv
 from typing import Tuple, List, Set
 
 from Lemmatization.lib.trie_v1 import TrieNode, add
 from Lemmatization.utility import helper
-from Lemmatization.utility.reader import read_file
 from Lemmatization.utility.reader import read_csv
+from Lemmatization.utility.reader import read_file
 
 
 def stem_with_hunspell(word):
