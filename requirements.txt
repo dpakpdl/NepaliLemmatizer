@@ -1,0 +1,7 @@
+tabulate
+sklearn
+numpy
+pandas
+nltk
+fuzzywuzzy
+hunspell
