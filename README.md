@@ -15,7 +15,7 @@ Lemmatization of Nepali Text based on TRIE and Hybrid approach
 - `--help` for help text
 
 
-Example: `python Lemmatization/lemmatizer.py -m trie -t निर्माणको`
+Example: `python Lemmatization/lemmatizer.py -m trie -t खाएको`
 
 Output: 
 
