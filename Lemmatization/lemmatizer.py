@@ -77,7 +77,7 @@ class NepaliLemmatizer(Lemmatizer, ABC):
             for word in sentence:
                 status, _word, word_ = get_lemma(self.trie, word)
                 # print(status, _word, word_)
-                lemmatized_sentence.append(dict(word=word, lemma=word_))
+                lemmatized_sentence.append(dict(word=str(word), lemma=str(word_)))
             lemmatized_text.append(lemmatized_sentence)
         return lemmatized_text
 
